@@ -11,7 +11,7 @@ Paper available on https://www.tandfonline.com/doi/full/10.1080/03461238.2021.20
 
 - The simulated data can be found in the directory "./Data", including the portfolio "Portfolio.csv" at time t=0. <br/>
         * Sub-directories "./Data/profile_{i}" include time-series data for years t>=0 wich is unique to surrender assumptions in the ith-profile, i = 0,1,2,3. <br/>
-        * All data in these (sub-)directories is generated (and analyzed) by the scripts "__data{i}__{..}.py" <br/>
+        * All data in these (sub-)directories is generated (and analyzed) by the scripts "\__data{i}\__{..}.py" <br/>
  
 - The files "HPSearch_{..}.py" implement an automated hyperparameter-tuning (based on the python package 'hyperopt') <br/>
 
