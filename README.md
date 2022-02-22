@@ -1,5 +1,6 @@
 # Surrender_Analysis in Life Insurance
-Accompanying code for the paper "Modelling surrener risk in life insurance: theoretical and experimental insight" by M. Kiermayer. <br/>
+Research project 2019-2021. <br/>
+Accompanying code for the paper "Modelling surrender risk in life insurance: theoretical and experimental insight" by M. Kiermayer. <br/>
 Paper available on https://www.tandfonline.com/doi/full/10.1080/03461238.2021.2013308 (publication) or https://arxiv.org/abs/2101.11590 (preprint). <br/>
 
 # Goal
