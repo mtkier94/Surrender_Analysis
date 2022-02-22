@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Data & \multicolumn{5}{l}{Train.} & \multicolumn{5}{l}{Test} \\
+Metric &    acc. &  F\_1 & crossentropy & mae\$(p,\textbackslash hat\{p\})\$ & Var\$(p-\textbackslash hat\{p\})\$ &    acc. &  F\_1 & crossentropy & mae\$(p,\textbackslash hat\{p\})\$ & Var\$(p-\textbackslash hat\{p\})\$ \\
+\midrule
+Baseline      &  0.9835 &  0.0 &       0.0842 &           0.0169 &       7.8418e-04 &  0.9869 &  0.0 &       0.0703 &           0.0147 &       2.7042e-04 \\
+Logist. Regr. &  0.9835 &  0.0 &       0.0724 &           0.0072 &       3.7942e-04 &  0.9869 &  0.0 &       0.0616 &           0.0054 &       7.5947e-05 \\
+Random Forest &  0.9835 &  0.0 &       0.0665 &           0.0037 &       1.2094e-04 &  0.9869 &  0.0 &       0.0603 &           0.0027 &       2.7000e-05 \\
+XGBoost       &  0.9835 &  0.0 &       0.0691 &           0.0020 &       3.6529e-05 &  0.9869 &  0.0 &       0.0599 &           0.0013 &       6.1479e-06 \\
+NN - bagging  &  0.9835 &  0.0 &       0.0713 &           0.0058 &       3.6553e-04 &  0.9869 &  0.0 &       0.0607 &           0.0040 &       5.8071e-05 \\
+NN - boosting &  0.9835 &  0.0 &       0.0718 &           0.0065 &       3.8818e-04 &  0.9869 &  0.0 &       0.0612 &           0.0047 &       7.8308e-05 \\
+\bottomrule
+\end{tabular}
